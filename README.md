@@ -1,0 +1,2 @@
+# localWeather
+Stan lokalnej pogody
