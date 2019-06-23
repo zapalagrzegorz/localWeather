@@ -1,0 +1,72 @@
+h1 {
+  margin: 15vh auto 5vh auto;
+  text-align: center;
+}
+.container {
+  margin: 5vh auto;
+}
+.mainWeather {
+
+  margin: 5vh auto;
+  text-align: center;
+}
+.messageBox {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3%;
+  color: #fff;
+}
+a,
+a:focus,
+a:hover {
+  color: #8fbde5;
+}
+.clearSky {
+  background: url(/img/clear-sky.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.fewClouds {
+  background: url(/img/atmosphere-blue-sky-clouds-912110.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.scatteredClouds {
+  background: url(/img/scatteredClouds.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.brokenClouds {
+  background: url(/img/broken-clouds.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.showerRain {
+  background: url(/img/shower-rain.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.rain {
+  background: url(/img/rain.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.thunderstorm {
+  background: url(/img/thunderstorm.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.snow {
+  background: url(/img/snow.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.mist {
+  background: url(/img/mist.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+@media (max-width: 991px) {
+  .centerXsMd {
+    text-align: center;
+  }
+}

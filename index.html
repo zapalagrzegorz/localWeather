@@ -1,0 +1,45 @@
+
+<html lang="en">
+    <head>
+        <title>Local weather</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <section class="container">
+                <div class="messageBox">
+                    <header class="row">
+                        <h1 class="text-center">Local weather app</h1>
+                    </header>
+                    <div class="row">
+                        <div class="col-xs-12 mainWeather" id="weather">
+                            <h2 id="weatherImg">Current weather is <span id="mainWeather"></span></h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="offset-xl-2 col-xl-10 offset-lg-2 col-lg-10
+                                    col-xs-12 col-sm-12 col-md-12 centerXsMd">
+                            <p>Temperature: <a id="temp" href="#">°C</a> <span id="otherTemp">| °F</span></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 
+                                    offset-lg-7 col-lg-5 offset-xl-7 col-xl-5 centerXsMd">
+                            <p>Humidity: <span id="humidity"></span></p>
+                            <p>Wind: <span id="wind"></span></p>
+                            <p>Clouds <span id="clouds"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+    
+    </html>
